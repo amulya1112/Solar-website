@@ -1,0 +1,346 @@
+:root {
+  --box-shadow: 5px 5px 10px 10px rgba(101, 175, 10, 0.5);
+  --bg-color: rgb(40, 47, 97);
+}
+
+body {
+  background-image:url("sol web.jpeg");
+  background-repeat: no-repeat;
+  background-attachment:fixed ;
+  background-size: cover;
+  color: white;
+  border-color: black;  
+}
+
+a {
+  text-decoration: none;
+  color: rgb(240, 240, 240);
+  border-bottom: #007bff;
+}
+
+center{
+  color:#000707;
+
+}
+
+center:hover{
+  color:rgb(241, 57, 57);
+}
+
+h1{
+  color:#f1ee08
+}
+h1:hover{
+  color: rgb(202, 37, 207);
+}
+
+
+
+/* Navbar Section */
+.nav_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0,0,0,0.5);
+  border-radius: 15px;
+  box-shadow: 0 0 10px #000;
+}
+
+.nav_bar .nav_items {
+  padding: 16px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.nav_bar .nav_items img{
+  display: inline-block;
+  height: 104px;
+  width: 120px;
+  border-radius: 50%;
+  border-color: #000;
+}
+
+.nav_bar .nav_items img:hover{
+  background-color: none;
+}
+
+.nav_bar .nav_items:hover {
+  border-bottom: 3px solid yellow;
+  background-color: aqua;
+  color: black;
+}
+
+.nav_bar .left .nav_items{
+  color: #04AA6D;
+}
+
+
+
+/* Home Section */
+
+.home {
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home .left {
+  background-color: var(--bg-color);
+  width: 620px;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid yellow;
+  box-shadow: var(--box-shadow);
+}
+
+.home .right .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: yellow; */
+  /* height: 350px;
+  width: 350px; */
+}
+
+.home .right .img img {
+  height: 270px;
+  width: 270px;
+  border: 5px solid yellow;
+  border-radius: 100%;
+  animation-name: superman;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes superman {
+  0% {
+    border-color: blue;
+    transform: translate(0, 0px);
+    box-shadow: 10px 10px 100px 50px blue;
+  }
+
+  25% {
+    border-color: rgb(239, 244, 11);
+    box-shadow: 10px 10px 100px 50px rgb(239, 244, 11);
+  }
+
+  50% {
+    border-color: rgb(12, 12, 199);
+    transform: translate(0, 10px);
+    box-shadow: 10px 10px 100px 50px rgb(12, 12, 199);
+  }
+
+  75% {
+    border-color: rgb(130, 217, 160);
+    box-shadow: 10px 10px 100px 50px rgb(130, 217, 160);
+  }
+
+  100% {
+    border-color: rgb(50, 55, 205);
+    transform: translate(0, -0px);
+    box-shadow: 10px 10px 100px 50px rgb(50, 55, 205);
+  }
+}
+
+/* About Section */
+
+.ex-items text-center my-5 left{
+  align-items: center;
+}
+
+
+.ex-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-color);
+  margin: 20px;
+  padding: 40px;
+  border-radius: 10px;
+  border: 1px solid yellow;
+  box-shadow: var(--box-shadow);
+
+}
+
+/* Projects Section */
+
+
+.card {
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  padding: 20px; 
+  margin: 20px; 
+  background-color: #fff; 
+  width: 1520px; 
+  align-items: center;
+
+}
+
+.card-title{
+  text-align:center;
+  color: rgba(239, 243, 0, 0.897);
+  
+}
+.card-title:hover{
+  background-color: rgb(6, 234, 241);
+  color: rgb(87, 14, 1);
+}
+
+.card-text{
+  text-align:center;
+  color:rgb(249, 238, 255)
+}
+.card-text:hover{
+  background-color: aquamarine;
+  color: darkgreen;
+  
+
+}
+
+/* Dropdown Button */
+.dropbtn {
+  border-bottom: #02502c;
+  color: rgb(99, 4, 4);
+  padding: 16px;
+  font-size: 16px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #971313a1;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+
+
+/* Services */
+
+
+.services .items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* width: 800px; */
+  margin: auto;
+  /* background-color: yellow; */
+ 
+}
+
+.services .items .item {
+  width: calc(33.33%);
+  background-color: black;
+  margin: 20px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid yellow;
+  box-shadow: var(--box-shadow);
+}
+
+.services .items .item img {
+  width:70px;
+}
+
+.containerservices .items
+{
+  position: absolute;
+  border: 1px solid yellow;
+
+}
+
+
+
+/* whatsapp */
+
+.whatsapp_float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 1000;
+}
+
+.whatsapp_float img {
+  margin-top: -5px;
+  width: 68px;
+  border-radius: 50px;
+}
+
+/*social */
+.social-media-icons {
+  display: flex;
+  gap: 15px; /* Space between icons */
+}
+
+.social-media-icons a {
+  color: #000; /* Default color */
+  transition: color 0.3s;
+}
+
+.social-media-icons a:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+/* Contact */
+
+.contact-icon {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-icon .items {
+  background-color: black;
+  margin: 10px;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  border: 2px solid yellow;
+}
+
+.contact-icon .items:hover {
+  background-color: var(--bg-color);
+  box-shadow: var(--box-shadow);
+}
+
+.contact-icon .items .icons {
+  font-size: 2rem;
+}

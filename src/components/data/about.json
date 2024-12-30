@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "role": "Photovoltaic System",
+      "about": [
+        "Convert sunlight directly into electricity using solar panels made of semiconductor materials like silicon. It include solar panels, a solar inverter, mounting, cabling."
+      ],
+      "imageSrc": "company/pv sys (3).jpg"
+    },
+    {
+      "id": 2,
+      "role": "Solar Thermal System",
+      "about": [
+        "Use mirrors or lenses to concentrate sunlight to generate heat, which can be used for heating, cooling etc. It  is also used to store a solar energy in  fluid in two tanks."
+      ],
+      "imageSrc": "company/solar thermal.jpg"
+    },
+    {
+      "id": 3,
+      "role": "Concentrated Solar Power",
+      "about": [
+        "Large-scale systems that concentrate solar energy to produce steam for powering turbines in a solar power. It use mirrored dishes to focus sunlight on a receiver. "
+      ],
+      "imageSrc": "company/conc solar (3).jpg"
+    }
+  ]
+  

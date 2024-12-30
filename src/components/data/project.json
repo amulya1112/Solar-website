@@ -1,0 +1,36 @@
+[
+  {
+    "key": 1,
+    "title": "Kurnool Ultra Mega Solar Park, Andhra Pradesh",
+    "imageSrc": "public/assets/projects/kurnool (3).jpg",
+    "description": "The Kurnool Solar Park was set up by Andhra Pradesh Solar Power Corporation through a joint venture special purpose vehicle, in which Solar Energy Corporation of India has 50% stake, Andhra Pradesh Generation Corporation (41%) and New and Renewable Energy Development Corporation (9%).",
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "key": 2,
+    "title": "Pavagada Solar Park Shakti Sthala, Bangalore",
+    "imageSrc": "public/assets/projects/pavagadh (3).jpg",
+    "description": "The Pavagada Solar Park, situated in Karnataka, South India, stands as one of the largest solar parks in the world, symbolizing the country’s ambitious renewable energy goals. This massive solar facility was inaugurated in 2019, with a capacity of 2,050 megawatts spread across five villages in the Pavagada taluka of Tumkur district.",
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "key": 3,
+    "title": "Green Hydrogen Plant, Bihar",
+    "imageSrc": "public/assets/projects/green (5).jpg",
+    "description":"Ashoka Buildcon plans to invest Rs 90 billion in establishing a green hydrogen plant in Bihar. The company signed a memorandum of understanding with the Bihar government, committing to the development of the project.",
+
+
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "key": 4,
+    "title": "Mudasarlova Reservoir, Vishakhapatnam",
+    "imageSrc": "public/assets/projects/float (2).jpg",
+    "description": "The Mudasarlova Reservoir is one of the oldest man-made water bodies in Andhra Pradesh. It provides drinking water to Visakhapatnam households and is also a popular picnic spot. The floating solar power plant project was the first of its kind in Andhra Pradesh. The GVMC also has a 3 MW floating solar plant on the Meghadrigedda Reservoir in Visakhapatnam. ",
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]
