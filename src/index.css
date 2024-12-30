@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image:url("sol web.jpeg");
+  background-image:url("src/assets/photo/sol web.jpeg");
   background-repeat: no-repeat;
   background-attachment:fixed ;
   background-size: cover;

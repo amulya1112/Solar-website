@@ -35,7 +35,7 @@ const Home = () => {
             <img src={`/assets/${hero.imgSrc}`} alt="hero" />
           </div>
           <a href="https://wa.me/1234567890" class="whatsapp_float" target="_blank">
-           <img src="whatsapp.jpg" alt="WhatsApp"/>
+           <img src="src/assets/photo/whatsapp.jpg" alt="WhatsApp"/>
           </a>
         </div>
       </div>

@@ -30,7 +30,7 @@ function ContactClick() {
       >
          
         <div className="left nav_items">
-        <img src="jsm logo solar.jpg"/>
+        <img src="src/assets/photo/jsm logo solar.jpg"/>
         </div>
         <div className="right">
           <a href="#home" className="nav_items">
