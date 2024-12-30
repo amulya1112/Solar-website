@@ -36,7 +36,7 @@ const Contact = () => {
   };
 
   return (
-    <>
+    <div>
     <div className="container nav_bar"
       data-aos="zoom-in"
       data-aos-duration="1000" 
@@ -55,6 +55,7 @@ const Contact = () => {
       </form>
     </StyledContactForm>
     </center>
+      
     <div
           className="contact-icon"
           data-aos="zoom-in-up"
@@ -83,7 +84,7 @@ const Contact = () => {
             <SiGmail className="icons" />
           </a>
         </div>
-    </>
+    </div>
   );
 };
 
@@ -131,13 +132,18 @@ const StyledContactForm = styled.div`
 
     label {
       margin-top: 1rem;
+      fontweight:bold;
     }
 
     input[type="submit"] {
       margin-top: 2rem;
       cursor: pointer;
-      background: rgb(249, 105, 14);
+      background: rgb(0, 0, 0);
       color: white;
       border: none;
     }
+      input[type="submit"]:hover{
+      background:orange;
+      color:black;
+      }
   `;

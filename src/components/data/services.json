@@ -1,27 +1,27 @@
 [
     {
       "title": "Solar Water Heater",
-      "imageSrc": "services/solar-water-heater (2).jpg"
+      "imageSrc": "assets/services/solar-water-heater (2).jpg"
     },
     {
       "title": "Solar Street Light",
-      "imageSrc": "services/solar street light (1).jpg"
+      "imageSrc": "assets/services/solar street light (1).jpg"
     },
     {
       "title": "Solar Power Plant",
-      "imageSrc": "services/solar-power-plant (1).jpg"
+      "imageSrc": "assets/services/solar-power-plant (1).jpg"
     },
     {
       "title": "Solar Water Pump",
-      "imageSrc": "services/solar water pump (1).jpg"
+      "imageSrc": "assets/services/solar water pump (1).jpg"
     },
     {
       "title": "Solar Farm Development",
-      "imageSrc": "services/solar farm (4).jpg"
+      "imageSrc": "assets/services/solar farm (4).jpg"
     },
     {
       "title":"Solar Cooker",
-      "imageSrc":"services/solar cooker (1).jpg"
+      "imageSrc":"assets/services/solar cooker (1).jpg"
     }
   ]
   

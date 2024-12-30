@@ -1,13 +1,12 @@
 import React from "react";
 import about from "./data/about.json";
-import Vison from "./Vison";
 
 const About = () => {
   return (
     <>
-    <Vison/>
+    
       <div className="About ex" id="about">
-        <h1><center>ABOUT</center></h1>
+        <h1><center><span>ABOUT</span></center></h1>
         {about.map((data) => {
           return (
             <>
@@ -32,9 +31,7 @@ const About = () => {
                   <h3 style={{ color: "yellow" }}>{data.about[1]}</h3>
                 </div>
               </div>
-              <a href="#vision" className="nav_items">
-                Vision
-              </a>
+              
             </>
           );
         })}
